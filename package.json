@@ -1,5 +1,5 @@
 {
-  "name": "@iinfinity/after",
+  "name": "@iinfinity/delay",
   "version": "0.1.0",
   "description": "Promise & await delay function.",
   "main": "index.js",
