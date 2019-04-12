@@ -1,0 +1,44 @@
+{
+  "name": "@iinfinity/after",
+  "version": "0.1.0",
+  "description": "Promise & await delay function.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "src/demo",
+    "test": "src/test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "debug": "node -r ts-node/register --inspect-brk src/main/index.ts",
+    "start": "npm run dist",
+    "test": "node node_modules/jasmine/bin/jasmine.js --config=jasmine.json --reporter=jasmine-console-reporter --require=ts-node/register"
+  },
+  "keywords": [
+    "typescript",
+    "delay",
+    "sync",
+    "promise",
+    "await"
+  ],
+  "author": "IInfinity <I.INF@Outlook.com> (https://don.red/)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^3.3.12",
+    "@types/node": "latest",
+    "jasmine": "^3.3.1",
+    "jasmine-console-reporter": "^3.1.0",
+    "ts-node": "latest",
+    "typescript": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinDon/ts-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DevinDon/ts-template/issues"
+  },
+  "homepage": "https://github.com/DevinDon/ts-template"
+}
