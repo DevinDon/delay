@@ -6,6 +6,10 @@ Promise & await delay function.
 
 See full [CHANGELOG.md](https://github.com/DevinDon/delay/blob/master/docs/CHANGELOG.md) on GitHub.
 
+## 0.1.0 => 0.1.1
+
+- chore: update package
+
 # Usage
 
 ## Simple
