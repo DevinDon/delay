@@ -26,12 +26,12 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "@types/jasmine": "3.x",
-    "@types/node": "11.x",
-    "jasmine": "3.x",
-    "jasmine-console-reporter": "3.x",
-    "ts-node": "8.x",
-    "typescript": "3.x"
+    "@types/jasmine": "^3.5.14",
+    "@types/node": "^14.6.4",
+    "jasmine": "^3.6.1",
+    "jasmine-console-reporter": "^3.1.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
   },
   "repository": {
     "type": "git",
